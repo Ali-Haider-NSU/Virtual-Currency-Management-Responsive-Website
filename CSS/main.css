@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply bg-[#00BBF0] hover:bg-[#0d8db1] transition w-40 h-10 mt-8 text-white;
+}
+  
