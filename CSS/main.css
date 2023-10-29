@@ -5,4 +5,8 @@
 .btn{
     @apply bg-[#00BBF0] hover:bg-[#0d8db1] transition w-40 h-10 mt-8 text-white;
 }
+
+.single-img{
+    @apply h-32 w-32 border-[5px] outline-[5px] outline-[#00204A] border-[#00204A] p-6 rounded-full mx-auto;
+}
   
