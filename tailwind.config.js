@@ -2,17 +2,20 @@
 module.exports = {
     content: ["*"],
     theme: {
-        // colors: {
-        //     'light-blue': '#00BBF0',
-        //     'purple': '#7e5bef',
-        //     'pink': '#ff49db',
 
-        // },
         fontFamily: {
             sans: ['Graphik', 'sans-serif'],
             serif: ['Merriweather', 'serif'],
         },
-        extend: {},
+        extend: {
+            boxShadow: {
+                'dark': '0 2px 10px 0 rgba(0,0,0,0.75)',
+            },
+            animation: {
+                'bounce': 'bounce 6s infinite',
+
+            },
+        },
     },
     plugins: [],
 }

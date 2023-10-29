@@ -10,3 +10,6 @@
     @apply h-32 w-32 border-[5px] outline-[5px] outline-[#00204A] border-[#00204A] p-6 rounded-full mx-auto;
 }
   
+.icn{
+    @apply hover:text-[#00BBF0] transition cursor-pointer;
+}
